@@ -1,15 +1,17 @@
 {
   "name": "whatsappbot-evans",
   "version": "1.0.0",
-  "description": "A WhatsApp bot built with Baileys",
+  "description": "A 24/7 WhatsApp bot built with Baileys",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.6.0",
-    "qrcode-terminal": "^0.12.0",
+    "pino": "^9.3.2",
+    "pino-pretty": "^11.0.0",
     "fs-extra": "^11.2.0",
-    "moment-timezone": "^0.5.45"
+    "moment-timezone": "^0.5.45",
+    "qrcode-terminal": "^0.12.0"
   }
 }
