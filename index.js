@@ -1,12 +1,4 @@
-const fs = require("fs");
-try {
-  if (fs.existsSync("./session")) {
-    fs.rmSync("./session", { recursive: true });
-    console.log("🔥 Old WhatsApp session deleted");
-  }
-} catch (err) {
-  console.error("Failed to delete session:", err);
-}const {
+const {
   default: makeWASocket,
   useMultiFileAuthState,
   fetchLatestBaileysVersion
